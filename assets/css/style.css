@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: rgb(104, 104, 104);
+    height: 1250px;
+    border:  2px solid black;
+}
+header h1{
+    font-size: 5em;
+    color: #ccc;
+    margin-bottom: 50px;
+}
+header p{
+    font-size: 1.5em;
+    color: #ccc;
+
+}
+div{
+    border: 2px solid white;
+    width: 400px;
+    background-image: linear-gradient(90deg ,#8507e1,#3dc8d5 );
+    text-align: center;
+    margin: 350px auto;
+}
+div:hover{
+    background-image: linear-gradient(180deg ,#8507e1,#3dc8d5 );
+}
+ul li{
+    text-align: end;
+    margin: 0px 1vw 0px 0;
+    line-height: 25px;
+    cursor: pointer;
+}
+section{
+    
+    width: 50vw;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+section h1{
+    margin: 50px 0 0 0;
+}
+section p{
+    width: 450px;
+}
+img{
+    margin: 100px 0 0 0;
+    width: 50vw;
+    border-radius: 20px;
+}
