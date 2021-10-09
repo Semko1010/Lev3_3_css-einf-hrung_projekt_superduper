@@ -1,18 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+</style>
+
 *{
     padding: 0;
     margin: 0;
 }
 
 header{
-    background: rgb(104, 104, 104);
+    background: rgb(85, 85, 85);
     height: 100vh;
     border:  2px solid black;
 }
 header h3{
     font-size: 2em;
+    margin-left: 20px;
+    color: white;
 }
 header h1{
     font-size: 5em;
+    font-family: 'Gilda Display', serif;
     color: #ccc;
     margin-bottom: 50px;
 }
@@ -32,16 +38,17 @@ div:hover{
     background-image: linear-gradient(180deg ,#8507e1,#3dc8d5 );
 }
 header ul{
-    padding-top: 30px;
+   
     font-size: 2em;
     
     
 }
 ul li{
     text-align: end;
-    margin: 10px 1vw 0 0;
+    margin: 10px 1vw 0px 0;
     line-height: 25px;
     cursor: pointer;
+    list-style: none;
     
 }
 section{
