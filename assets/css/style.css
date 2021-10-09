@@ -5,8 +5,11 @@
 
 header{
     background: rgb(104, 104, 104);
-    height: 1250px;
+    height: 1180px;
     border:  2px solid black;
+}
+header h3{
+    font-size: 2em;
 }
 header h1{
     font-size: 5em;
@@ -37,11 +40,13 @@ ul li{
 section{
     
     width: 50vw;
-    border: 2px solid black;
+    
     margin: 0 auto;
 }
 section h1{
     margin: 50px 0 0 0;
+    font-size: 5em;
+    margin-bottom: 40px;
 }
 section p{
     width: 450px;
@@ -50,4 +55,7 @@ img{
     margin: 100px 0 0 0;
     width: 50vw;
     border-radius: 20px;
+}
+section h2{
+    font-size: 3em;
 }
