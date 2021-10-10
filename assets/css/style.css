@@ -8,13 +8,21 @@
 }
 
 header{
-    background: rgb(85, 85, 85);
-    
+    background-image: linear-gradient(180deg ,#8507e1,#3dc8d5 );
+    padding-top: 20px;
 }
 header h3{
     font-size: 2em;
     margin-left: 20px;
     color: white;
+    font-family: 'Gilda Display', serif;
+    border: 10px double white;
+    border-radius: 50%;
+    width: 110px;
+    height: 100px;
+    text-align: center;
+    padding-top: 12px;
+    
 }
 header h1{
     font-size: 5em;
@@ -42,7 +50,7 @@ header ul{
     font-size: 2em;
     text-align: end;
     margin-left: auto;
-    padding: 120px 20px 20px 0;
+    padding: 0px 20px 20px 0;
     width: 200px;
     list-style: none;
 
@@ -51,6 +59,31 @@ header ul li{
     cursor: pointer;
     
 }
+header ul li:hover{
+color: rgba(255, 255, 255, 0.3);
+    
+}
+header ul li:nth-child(1):after{
+    content: "⚛️";
+    padding-left: 10px;
+    
+}
+header ul li:nth-child(2):after{
+    content: "🛐";
+    padding-left: 10px;
+    
+}
+header ul li:nth-child(3):after{
+    content: "♍️";
+    padding-left: 10px;
+    
+}
+header ul li:nth-child(4):after{
+    content: "🕉";
+    padding-left: 10px;
+    
+}
+
 
 section{
     
@@ -75,5 +108,10 @@ img{
 }
 section h2{
     font-size: 3em;
+}
+
+section img{
+    
+    padding-bottom: 50px;
 }
 
